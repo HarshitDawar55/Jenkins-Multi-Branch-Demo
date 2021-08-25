@@ -29,7 +29,7 @@ pipeline {
     }
     post{
         always {
-                emailText body: "Test Email from Multi Branch Pipeline", recipientProviders: ["harshit.dawar55@gmail.com"], subject: "Test"
+                emailext body: "Test Email from Multi Branch Pipeline", recipientProviders: ["harshit.dawar55@gmail.com"], subject: "Test"
         }
     }
 }
