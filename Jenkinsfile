@@ -1,4 +1,4 @@
-Pipeline {
+pipeline {
     agent any
     parameters {
         booleanParam(name: "RunTest", defaultvalue: True, description: "This parameter will decide whether to run the testing stage or not!")
