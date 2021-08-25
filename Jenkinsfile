@@ -27,9 +27,4 @@ pipeline {
             }
         }
     }
-    post{
-        always {
-                emailext body: "Test Email from Multi Branch Pipeline", recipientProviders: ["harshit.dawar55@gmail.com"], subject: "Test"
-        }
-    }
 }
